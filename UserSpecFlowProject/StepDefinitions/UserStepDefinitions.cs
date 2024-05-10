@@ -10,6 +10,7 @@ namespace UserSpecFlowProject.StepDefinitions
         public void GivenIAmOnTheUserIndexPage()
         {
             // Add code here to navigate to the User Index page
+
         }
 
         // Step definition for the when step

@@ -3,6 +3,7 @@
     I want to manage users
     So that I can keep track of all registered users
 
+
 Scenario: Index
     Given I am on the User Index page
     When I request a list of all users
