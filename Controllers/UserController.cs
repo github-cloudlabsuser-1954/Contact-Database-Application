@@ -18,7 +18,7 @@ namespace CRUD_application_2.Controllers
                     {
                         Id = i,
                         Name = $"User{i}",
-                        Email = $"user{i}@example.com",
+                        Email = $"user{i}@example.com",                        
                     });
                 }
             }
@@ -50,7 +50,7 @@ namespace CRUD_application_2.Controllers
             return View(new User());
         }
 
-        // GET: User/Create
+        // POST: User/Create
         [HttpPost]
         public ActionResult Create(User user)
         {
@@ -130,6 +130,5 @@ namespace CRUD_application_2.Controllers
             userlist.Remove(user);
             return RedirectToAction("Index");
         }
-
     }
 }

@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "name": {
-            "value": "user-crud-mvc-app"
+            "value": "WebApp"
         },
         "location": {
             "value": "West US"
